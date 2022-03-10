@@ -6,9 +6,9 @@
 name: Publish Docker image
 
 on:
-  branches:
-      - 'main'
   push:
+    branches:
+      - 'main'
     tags:
       - 'v1*.*'
 
