@@ -1,2 +1,2 @@
 FROM  alpine:latest
-# yo
+RUN apk update && apk add bash
